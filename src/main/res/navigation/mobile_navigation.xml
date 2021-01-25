@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_crop"
+        android:name="kr.ac.kumoh.s20180909.mystardewvalley.ui.crop.CropFragment"
+        android:label="@string/title_crop"
+        tools:layout="@layout/fragment_crop" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="kr.ac.kumoh.s20180909.mystardewvalley.ui.mine.MineFragment"
+        android:label="@string/title_mine"
+        tools:layout="@layout/fragment_mine" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="kr.ac.kumoh.s20180909.mystardewvalley.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_fish"
+        android:name="kr.ac.kumoh.s20180909.mystardewvalley.ui.fish.FishFragment"
+        android:label="@string/title_fish"
+        tools:layout="@layout/fragment_fish" />
+
+    <fragment
+        android:id="@+id/navigation_villager"
+        android:name="kr.ac.kumoh.s20180909.mystardewvalley.ui.villager.VillagerFragment"
+        android:label="@string/title_villager"
+        tools:layout="@layout/fragment_villager" />
+</navigation>

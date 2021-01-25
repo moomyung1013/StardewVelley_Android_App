@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">농장주가 되고 싶니?</string>
+    <string name="title_home">Stardew Valley</string>
+    <string name="title_crop">농작물</string>
+    <string name="title_fish">물고기</string>
+    <string name="title_villager">주민</string>
+    <string name="title_mine">광산</string>
+</resources>
